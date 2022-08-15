@@ -1,0 +1,58 @@
+! Title: partoftheworlD's filters
+! Expires: 1 day
+! 2gis
+2gis.ru##div[style="padding: 0px; left: 0px; transition: left 200ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;"]:upward(4)
+2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
+
+!
+4anime-tv.com##.stream-item-above-post-content.stream-item > div
+9animetv.su##.entry-content > div
+9animetv.su##center
+
+! ali coupons
+aliexpress.*##div[class^="ali-kit"]:matches-css(z-index:1040)
+
+! duolingo
+www.duolingo.com##button[data-test*="plus"]
+
+! chess trial popup
+chess.com##a[href*="membership"]
+chess.com##div[class*="trial"]
+
+! speedrun.com
+speedrun.com##div[class="widget-container"]:has-text(spotlight)
+speedrun.com##li:has-text(Spotlight)
+
+! isthereanydeal promo
+||*.cloudfront.net^$image,domain=isthereanydeal.com
+
+! fox,cc,cn,nf-fan.tv
+###noVip
+###regBlock
+##[href*="vip.php"]
+##[href="//freekassa.ru/"]
+###shopVip
+###content > #comtab
+##div[class="borderRed"]
+! amedia.online
+amedia.online##.telegr
+amedia.online##.comments-wrap
+amedia.online##div[style*="width:970px"]
+||usocial.pro/usocial/*$script
+
+/adsbygoogle.js
+/share/share.js$important
+/assets/marketing-all-adv_banner-desktop
+/assets/rtb-all-adv-video-banner
+/ad-injections.json
+/getads.js
+
+! amedia.online
+amedia.online###dle-content > .yan5:style(padding: 0 0 0 0 !important;)
+amedia.online##span[class="titlesp"]
+amedia.online##h1:style(text-transform: initial !important;)
+! speedrun com
+||js.stripe.com/v3/fingerprinted/*$important
+
+! https://letterboxd.com
+letterboxd.com##[href^="/pro/"]
