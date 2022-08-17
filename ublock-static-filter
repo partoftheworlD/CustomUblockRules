@@ -38,6 +38,7 @@ speedrun.com##li:has-text(Spotlight)
 amedia.online##.telegr
 amedia.online##.comments-wrap
 amedia.online##div[style*="width:970px"]
+
 ||usocial.pro/usocial/*$script
 
 /adsbygoogle.js
