@@ -22,6 +22,8 @@ chess.com##div[class*="trial"]
 ! speedrun.com
 speedrun.com##div[class="widget-container"]:has-text(spotlight)
 speedrun.com##li:has-text(Spotlight)
+www.speedrun.com##[href="/supporter"][class="nav-link"]
+www.speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
 
 ! isthereanydeal promo
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
@@ -57,3 +59,6 @@ amedia.online##h1:style(text-transform: initial !important;)
 
 ! https://letterboxd.com
 letterboxd.com##[href^="/pro/"]
+
+! csgostats fix css
+csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
