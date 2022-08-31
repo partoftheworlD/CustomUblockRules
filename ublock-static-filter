@@ -24,6 +24,7 @@ speedrun.com##div[class="widget-container"]:has-text(spotlight)
 speedrun.com##li:has-text(Spotlight)
 www.speedrun.com##[href="/supporter"][class="nav-link"]
 www.speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
+||js.stripe.com/v3/fingerprinted/*$important
 
 ! isthereanydeal promo
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
@@ -54,8 +55,7 @@ amedia.online##div[style*="width:970px"]
 amedia.online###dle-content > .yan5:style(padding: 0 0 0 0 !important;)
 amedia.online##span[class="titlesp"]
 amedia.online##h1:style(text-transform: initial !important;)
-! speedrun com
-||js.stripe.com/v3/fingerprinted/*$important
+
 
 ! https://letterboxd.com
 letterboxd.com##[href^="/pro/"]
