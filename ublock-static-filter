@@ -65,3 +65,6 @@ csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
 
 ! remove shorts
 www.youtube.com##[href*="shorts"]:upward(3)
+
+! 2022-09-18 https://myanimelist.net
+myanimelist.net##a:has-text(MAL):upward(2)
