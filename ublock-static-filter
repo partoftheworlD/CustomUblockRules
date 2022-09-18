@@ -67,4 +67,17 @@ csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
 www.youtube.com##[href*="shorts"]:upward(3)
 
 ! 2022-09-18 https://myanimelist.net
-myanimelist.net##a:has-text(MAL):upward(2)
+myanimelist.net##li[class="mal-bunkasai-2"]
+myanimelist.net##.btn-mal-service
+myanimelist.net##.mxj.widget
+myanimelist.net##.friend_list_updates.widget
+myanimelist.net##.friend_birthdays.widget
+myanimelist.net##.store_popular_comics.widget
+myanimelist.net##.manga_suggestions.widget
+myanimelist.net##.news.widget
+myanimelist.net##.featured.widget
+myanimelist.net##.reviews.widget
+myanimelist.net##.anime_discussions.widget
+myanimelist.net##.announcements.widget
+myanimelist.net##.watched_topics.widget
+myanimelist.net##.clubs.widget
