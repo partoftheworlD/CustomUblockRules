@@ -81,3 +81,4 @@ myanimelist.net##.anime_discussions.widget
 myanimelist.net##.announcements.widget
 myanimelist.net##.watched_topics.widget
 myanimelist.net##.clubs.widget
+myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
