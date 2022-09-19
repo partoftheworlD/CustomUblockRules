@@ -24,6 +24,7 @@ speedrun.com##div[class="widget-container"]:has-text(spotlight)
 speedrun.com##li:has-text(Spotlight)
 www.speedrun.com##[href="/supporter"][class="nav-link"]
 www.speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
+www.speedrun.com##.btn-boost
 ||js.stripe.com/v3/fingerprinted/*$important
 
 ! isthereanydeal promo
