@@ -64,9 +64,6 @@ letterboxd.com##[href^="/pro/"]
 ! csgostats fix css
 csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
 
-! remove shorts
-www.youtube.com##[href*="shorts"]:upward(3)
-
 ! 2022-09-18 https://myanimelist.net
 myanimelist.net##li[class="mal-bunkasai-2"]
 myanimelist.net##.btn-mal-service
