@@ -41,7 +41,8 @@ www.amedia.online##.telegr
 www.amedia.online##.comments-wrap
 www.amedia.online##div[style*="width:970px"]
 
-||usocial.pro/usocial/*$script
+||usocial.pro^
+||anycomment.io^
 
 /adsbygoogle.js
 /share/share.js$important
