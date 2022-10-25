@@ -26,10 +26,6 @@ www.speedrun.com##li:has-text(Spotlight)
 www.speedrun.com##[href="/supporter"][class="nav-link"]
 www.speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
 www.speedrun.com##.btn-boost
-||js.stripe.com/v3/fingerprinted/*$important
-
-! isthereanydeal promo
-||*.cloudfront.net^$image,domain=isthereanydeal.com
 
 ! fox,cc,cn,nf-fan.tv
 ###noVip
@@ -44,6 +40,9 @@ www.amedia.online##.telegr
 www.amedia.online##.comments-wrap
 www.amedia.online##div[style*="width:970px"]
 
+! isthereanydeal promo
+||*.cloudfront.net^$image,domain=isthereanydeal.com
+||js.stripe.com/*/fingerprinted/*$important
 ||usocial.pro^
 ||anycomment.io^
 ||mc.yandex.ru^$important
