@@ -51,6 +51,7 @@ amedia.online##div[style*="width:970px"]
 /assets/rtb-all-adv-video-banner
 /ad-injections.json
 /getads.js
+/js/counter.js
 
 ! amedia.online
 amedia.online###dle-content > .yan5:style(padding: 0 0 0 0 !important;)
