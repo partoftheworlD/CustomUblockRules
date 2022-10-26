@@ -10,9 +10,6 @@ www.4anime-tv.com##.stream-item-above-post-content.stream-item > div
 www.9animetv.su##.entry-content > div
 www.9animetv.su##center
 
-! ali coupons
-www.aliexpress.*##div[class^="ali-kit"]:matches-css(z-index:1040)
-
 ! duolingo
 www.duolingo.com##button[data-test*="plus"]
 
