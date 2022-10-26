@@ -45,6 +45,8 @@ www.amedia.online##div[style*="width:970px"]
 ||mc.yandex.ru^$important
 ||ruform.trex.media^
 ||id.uma.media^
+||elo.io^
+||twitter.com$important,domain=speedrun.com
 
 /adsbygoogle.js
 /share/share.js$important
