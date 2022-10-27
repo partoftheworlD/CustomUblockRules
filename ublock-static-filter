@@ -1,6 +1,6 @@
 ! Title: partoftheworlD's filters
 ! Expires: 1 day
-! Homepage: https://github.com/partoftheworlD/CustomUblockRules
+! Homepage: https://github.com/partoftheworlD/CustomUblockRules/blob/master/ublock-static-filter
 ! 2gis
 www.2gis.ru##div[style="padding: 0px; left: 0px; transition: left 200ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;"]:upward(4)
 www.2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
