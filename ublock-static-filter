@@ -48,6 +48,8 @@ www.amedia.online##div[style*="width:970px"]
 ||id.uma.media^
 ||elo.io^
 ||twitter.com$important,domain=speedrun.com
+! ip leak
+||streamalloha.live/*.txt
 
 /adsbygoogle.js
 /share/share.js$important
