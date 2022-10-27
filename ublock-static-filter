@@ -2,28 +2,28 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/partoftheworlD/CustomUblockRules/blob/master/ublock-static-filter
 ! 2gis
-www.2gis.ru##div[style="padding: 0px; left: 0px; transition: left 200ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;"]:upward(4)
-www.2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
+2gis.ru##div[style="padding: 0px; left: 0px; transition: left 200ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;"]:upward(4)
+2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
 
 !
-www.4anime-tv.com##.stream-item-above-post-content.stream-item > div
-www.9animetv.su##.entry-content > div
-www.9animetv.su##center
+4anime-tv.com##.stream-item-above-post-content.stream-item > div
+9animetv.su##.entry-content > div
+9animetv.su##center
 
 ! duolingo
-www.duolingo.com##button[data-test*="plus"]
+duolingo.com##button[data-test*="plus"]
 
 ! chess trial popup
-www.chess.com##a[href*="membership"]
-www.chess.com##div[class*="trial"]
+chess.com##a[href*="membership"]
+chess.com##div[class*="trial"]
 
 ! speedrun.com
-www.speedrun.com##div[class="widget-container"]:has-text(spotlight)
-www.speedrun.com##li:has-text(Spotlight)
-www.speedrun.com##[href="/supporter"][class="nav-link"]
-www.speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
-www.speedrun.com##.btn-boost
-www.speedrun.com##.widget-container:has-text(Tweets)
+speedrun.com##div[class="widget-container"]:has-text(spotlight)
+speedrun.com##li:has-text(Spotlight)
+speedrun.com##[href="/supporter"][class="nav-link"]
+speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
+speedrun.com##.btn-boost
+speedrun.com##.widget-container:has-text(Tweets)
 
 ! fox,cc,cn,nf-fan.tv
 ###noVip
@@ -34,9 +34,12 @@ www.speedrun.com##.widget-container:has-text(Tweets)
 ###content > #comtab
 ##div[class="borderRed"]
 ! amedia.online
-www.amedia.online##.telegr
-www.amedia.online##.comments-wrap
-www.amedia.online##div[style*="width:970px"]
+amedia.online##+js(rc, yan5, div)
+amedia.online##span[class="titlesp"]
+amedia.online##h1:style(text-transform: initial !important;)
+amedia.online##.telegr
+amedia.online##.comments-wrap
+amedia.online##div[style*="width:970px"]
 
 ! isthereanydeal promo
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
@@ -60,31 +63,25 @@ www.amedia.online##div[style*="width:970px"]
 /js/counter.js
 /recurly.js
 
-! amedia.online
-www.amedia.online###dle-content > .yan5:style(padding: 0 0 0 0 !important;)
-www.amedia.online##span[class="titlesp"]
-www.amedia.online##h1:style(text-transform: initial !important;)
-
-
 ! https://letterboxd.com
-www.letterboxd.com##[href^="/pro/"]
+letterboxd.com##[href^="/pro/"]
 
 ! csgostats fix css
-www.csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
+csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
 
 ! 2022-09-18 https://myanimelist.net
-www.myanimelist.net##li[class="mal-bunkasai-2"]
-www.myanimelist.net##.btn-mal-service
-www.myanimelist.net##.mxj.widget
-www.myanimelist.net##.friend_list_updates.widget
-www.myanimelist.net##.friend_birthdays.widget
-www.myanimelist.net##.store_popular_comics.widget
-www.myanimelist.net##.manga_suggestions.widget
-www.myanimelist.net##.news.widget
-www.myanimelist.net##.featured.widget
-www.myanimelist.net##.reviews.widget
-www.myanimelist.net##.anime_discussions.widget
-www.myanimelist.net##.announcements.widget
-www.myanimelist.net##.watched_topics.widget
-www.myanimelist.net##.clubs.widget
-www.myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
+myanimelist.net##li[class="mal-bunkasai-2"]
+myanimelist.net##.btn-mal-service
+myanimelist.net##.mxj.widget
+myanimelist.net##.friend_list_updates.widget
+myanimelist.net##.friend_birthdays.widget
+myanimelist.net##.store_popular_comics.widget
+myanimelist.net##.manga_suggestions.widget
+myanimelist.net##.news.widget
+myanimelist.net##.featured.widget
+myanimelist.net##.reviews.widget
+myanimelist.net##.anime_discussions.widget
+myanimelist.net##.announcements.widget
+myanimelist.net##.watched_topics.widget
+myanimelist.net##.clubs.widget
+myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
