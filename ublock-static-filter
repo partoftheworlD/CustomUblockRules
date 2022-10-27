@@ -52,7 +52,7 @@ amedia.online##div[style*="width:970px"]
 ||elo.io^
 ||twitter.com$important,domain=speedrun.com
 ! ip leak
-||streamalloha.live/*.txt$xhr,redirect=noop.txt
+! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
 
 /adsbygoogle.js
 /share/share.js$important
