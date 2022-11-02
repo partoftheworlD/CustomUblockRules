@@ -26,13 +26,13 @@ speedrun.com##.btn-boost
 speedrun.com##.widget-container:has-text(Tweets)
 
 ! fox,cc,cn,nf-fan.tv
-###noVip
-###regBlock
-##[href*="vip.php"]
-##[href="//freekassa.ru/"]
-###shopVip
-###content > #comtab
-##div[class="borderRed"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###noVip
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###regBlock
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[href*="vip.php"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[href="//freekassa.ru/"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###shopVip
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###content > #comtab
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##div[class="borderRed"]
 ! amedia.online
 amedia.online##+js(rc, yan5, div)
 amedia.online##span[class="titlesp"]
