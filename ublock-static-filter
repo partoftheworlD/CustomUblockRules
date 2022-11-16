@@ -24,6 +24,8 @@ speedrun.com##[href="/supporter"][class="nav-link"]
 speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
 speedrun.com##.btn-boost
 speedrun.com##.widget-container:has-text(Tweets)
+speedrun.com##[href^="https://frameperfect.speedrun.com/c"]
+
 
 ! fox,cc,cn,nf-fan.tv
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###noVip
@@ -85,3 +87,5 @@ myanimelist.net##.announcements.widget
 myanimelist.net##.watched_topics.widget
 myanimelist.net##.clubs.widget
 myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
+
+reshade.me###g-navigation:style(background: none !important)
