@@ -25,6 +25,7 @@ speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
 speedrun.com##.btn-boost
 speedrun.com##.widget-container:has-text(Tweets)
 speedrun.com##[href^="https://frameperfect.speedrun.com/c"]
+speedrun.com##[href="https://www.speedrun.shop"]
 
 
 ! fox,cc,cn,nf-fan.tv
@@ -35,6 +36,8 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[href="//freekassa.ru/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###shopVip
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###content > #comtab
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##div[class="borderRed"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="https://shop.mult.love/"]:upward(1)
+
 ! amedia.online
 amedia.online##+js(rc, yan5, div)
 amedia.online##span[class="titlesp"]
