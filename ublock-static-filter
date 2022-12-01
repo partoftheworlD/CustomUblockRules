@@ -48,6 +48,7 @@ amedia.online##div[style*="width:970px"]
 
 ! isthereanydeal promo
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
+
 ||js.stripe.com/*/fingerprinted/*$important
 ||usocial.pro^
 ||anycomment.io^
@@ -56,6 +57,7 @@ amedia.online##div[style*="width:970px"]
 ||id.uma.media^
 ||elo.io^
 ||twitter.com$important,domain=speedrun.com
+
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
 
@@ -68,13 +70,13 @@ amedia.online##div[style*="width:970px"]
 /js/counter.js
 /recurly.js
 
-! https://letterboxd.com
+! letterboxd.com
 letterboxd.com##[href^="/pro/"]
 
 ! csgostats fix css
 csgostats.gg##div[class="player-filter"]:style(position: initial !important;)
 
-! 2022-09-18 https://myanimelist.net
+! myanimelist.net
 myanimelist.net##li[class="mal-bunkasai-2"]
 myanimelist.net##.btn-mal-service
 myanimelist.net##.mxj.widget
@@ -91,4 +93,5 @@ myanimelist.net##.watched_topics.widget
 myanimelist.net##.clubs.widget
 myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
 
+! reshade.me
 reshade.me###g-navigation:style(background: none !important)
