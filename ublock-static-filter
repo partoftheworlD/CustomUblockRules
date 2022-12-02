@@ -40,6 +40,7 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###content > #comtab
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##div[class="borderRed"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="https://shop.mult.love/"]:upward(1)
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###likeBlock
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="http://shop.mult.love/"]
 
 ! amedia.online
 amedia.online##+js(rc, yan5, div)
