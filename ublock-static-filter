@@ -101,3 +101,6 @@ myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
 
 ! reshade.me
 reshade.me###g-navigation:style(background: none !important)
+
+! ozon.ru
+ozon.ru##span:has-text(Реклама):upward(3)
