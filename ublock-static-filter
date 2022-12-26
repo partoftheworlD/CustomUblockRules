@@ -23,8 +23,7 @@ chess.com##div[class*="trial"]
 ! speedrun.com
 speedrun.com##div[class="widget-container"]:has-text(spotlight)
 speedrun.com##li:has-text(Spotlight)
-speedrun.com##[href="/supporter"][class="nav-link"]
-speedrun.com##[href="/supporter"][class*="btn"]:upward(2)
+speedrun.com##[href="/supporter"]
 speedrun.com##.btn-boost
 speedrun.com##.widget-container:has-text(Tweets)
 speedrun.com##[href^="https://frameperfect.speedrun.com/c"]
