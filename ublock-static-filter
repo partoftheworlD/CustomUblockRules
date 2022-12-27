@@ -103,4 +103,7 @@ myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
 reshade.me###g-navigation:style(background: none !important)
 
 ! ozon.ru
-ozon.ru##span:has-text(Реклама):upward([data-widget="objectBannerList"])
+www.ozon.ru##span:has-text(Реклама):upward([data-widget="objectBannerList"])
+www.ozon.ru##span:has-text(Реклама):upward([data-widget="bannerCarousel"])
+www.ozon.ru##a[href="/special/care/"]:upward([data-widget="banner"])
+www.ozon.ru##a[href="https://www.ozon.ru/premium-new/"]:upward([data-widget="banner"])
