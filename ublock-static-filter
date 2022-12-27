@@ -50,7 +50,7 @@ amedia.online##h1:style(text-transform: initial !important;)
 amedia.online##.telegr
 amedia.online##.comments-wrap
 amedia.online##div[style*="width:970px"]
-||kodikapi.com/get-player$removeparam=/(title|hasPlayer|url)/
+||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 
 ! isthereanydeal promo
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
