@@ -108,3 +108,4 @@ www.ozon.ru##span:has-text(Реклама):upward([data-widget="bannerCarousel"]
 www.ozon.ru##a[href="/special/care/"]:upward([data-widget="banner"])
 www.ozon.ru##a[href="https://www.ozon.ru/premium-new/"]:upward([data-widget="banner"])
 www.ozon.ru##div:has-text(Реклама):upward([style*="border-radius"])
+www.ozon.ru##a[href*="/special/"]:upward([data-widget="banner"])
