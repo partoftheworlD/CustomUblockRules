@@ -56,12 +56,12 @@ amedia.online##div[style*="width:970px"]
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
 
 ||js.stripe.com/*/fingerprinted/*$important
-||usocial.pro^
-||anycomment.io^
+||usocial.pro^$3p
+||anycomment.io^$3p
 ||mc.yandex.ru^$important
-||ruform.trex.media^
-||id.uma.media^
-||elo.io^
+||ruform.trex.media^$3p
+||id.uma.media^$3p
+||elo.io^$3p
 ||twitter.com$important,domain=speedrun.com
 
 ! ip leak
