@@ -32,7 +32,7 @@ www.speedrun.com##div.section a:has-text(/supporter|shop/i)
 www.speedrun.com##.nav-link[href="/supporter"]:remove()
 www.speedrun.com##.btn-boost:remove()
 ! block 3p by using scp
-||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com;
+||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
 
 
 ! fox,cc,cn,nf-fan.tv
