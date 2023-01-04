@@ -32,7 +32,7 @@ www.speedrun.com##.nav-link[href="/supporter"]
 www.speedrun.com##.btn-boost
 www.speedrun.com##.flex a[href="/supporter"]
 ! block 3p by using scp
-||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
+!||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
 
 
 ! fox,cc,cn,nf-fan.tv
