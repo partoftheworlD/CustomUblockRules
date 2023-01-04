@@ -31,7 +31,7 @@ www.speedrun.com##a.dropdown-item:has-text(/supporter|shop/i):remove()
 www.speedrun.com##div.section a:has-text(/supporter|shop/i)
 www.speedrun.com##.nav-link[href="/supporter"]:remove()
 ! block 3p by using scp
-||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; frame-src *.youtube.com;
+||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com;
 
 
 ! fox,cc,cn,nf-fan.tv
