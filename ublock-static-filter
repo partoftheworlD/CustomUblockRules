@@ -22,7 +22,7 @@ chess.com##div[class*="trial"]
 
 ! speedrun.com
 www.speedrun.com##div:has-text("site update"):upward(.widget-container:has(a[href*="shop"])):remove()
-||www.speedrun.com/images/supporter/*$image
+||www.speedrun.com/images/supporter/*
 www.speedrun.com##.hidden-md-down > div:remove()
 www.speedrun.com##.article-tag-wrapper
 www.speedrun.com##div.widget-container:has-text(/tweets/i):remove()
