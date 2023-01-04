@@ -29,6 +29,7 @@ www.speedrun.com##div.widget-container:has-text(/tweets/i):remove()
 www.speedrun.com##li:has-text(/spotlight/i):remove()
 www.speedrun.com##a.dropdown-item:has-text(/supporter|shop/i):remove()
 www.speedrun.com##div.section a:has-text(/supporter|shop/i)
+www.speedrun.com##.nav-link[href="/supporter"]:remove()
 
 
 ! fox,cc,cn,nf-fan.tv
