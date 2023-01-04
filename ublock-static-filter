@@ -56,13 +56,14 @@ amedia.online##div[style*="width:970px"]
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
 
 ||js.stripe.com/*/fingerprinted/*$important
-||usocial.pro^$3p
-||anycomment.io^$3p
+||usocial.pro^
+||anycomment.io^
 ||mc.yandex.ru^$important
-||ruform.trex.media^$3p
-||id.uma.media^$3p
-||elo.io^$3p
-||twitter.com$important,domain=speedrun.com
+||ruform.trex.media^
+||id.uma.media^
+||elo.io^
+||twitter.com^$important,domain=speedrun.com
+||free-kassa.ru^
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
