@@ -20,17 +20,17 @@ duolingo.com##button[data-test*="plus"]
 chess.com##a[href*="membership"]
 chess.com##div[class*="trial"]
 
-! speedrun.com
-www.speedrun.com##div:has-text("site update"):upward(.widget-container:has(a[href*="shop"])):remove()
-www.speedrun.com##.widget-image:upward(div[style]):remove()
-www.speedrun.com##.hidden-md-down > div:remove()
+www.speedrun.com##div:has-text("site update"):upward(.widget-container:has(a[href*="shop"]))
+www.speedrun.com##.widget-image:upward(div[style])
+www.speedrun.com##.hidden-md-down > div
 www.speedrun.com##.article-tag-wrapper
-www.speedrun.com##div.widget-container:has-text(/tweets/i):remove()
-www.speedrun.com##li:has-text(/spotlight/i):remove()
-www.speedrun.com##a.dropdown-item:has-text(/supporter|shop/i):remove()
+www.speedrun.com##div.widget-container:has-text(/tweets/i)
+www.speedrun.com##li:has-text(/spotlight/i)
+www.speedrun.com##a.dropdown-item:has-text(/supporter|shop/i)
 www.speedrun.com##div.section a:has-text(/supporter|shop/i)
-www.speedrun.com##.nav-link[href="/supporter"]:remove()
-www.speedrun.com##.btn-boost:remove()
+www.speedrun.com##.nav-link[href="/supporter"]
+www.speedrun.com##.btn-boost
+www.speedrun.com##.flex a[href="/supporter"]
 ! block 3p by using scp
 ||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
 
