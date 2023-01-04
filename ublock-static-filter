@@ -21,13 +21,14 @@ chess.com##a[href*="membership"]
 chess.com##div[class*="trial"]
 
 ! speedrun.com
-speedrun.com##div[class="widget-container"]:has-text(spotlight)
-speedrun.com##li:has-text(Spotlight)
-speedrun.com##[href="/supporter"]
-speedrun.com##.btn-boost
-speedrun.com##.widget-container:has-text(Tweets)
-speedrun.com##[href^="https://frameperfect.speedrun.com/c"]
-speedrun.com##[href="https://www.speedrun.shop"]
+www.speedrun.com##div:has-text("site update"):upward(.widget-container:has(a[href*="shop"])):remove()
+||www.speedrun.com/images/supporter/*$image
+www.speedrun.com##.hidden-md-down > div:remove()
+www.speedrun.com##.article-tag-wrapper
+www.speedrun.com##div.widget-container:has-text(/tweets/i):remove()
+www.speedrun.com##li:has-text(/spotlight/i):remove()
+www.speedrun.com##a.dropdown-item:has-text(/supporter|shop/i):remove()
+www.speedrun.com##div.section a:has-text(/supporter|shop/i)
 
 
 ! fox,cc,cn,nf-fan.tv
