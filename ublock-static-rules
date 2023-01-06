@@ -115,3 +115,7 @@ www.ozon.ru##a[href="/special/care/"]:upward([data-widget="banner"])
 www.ozon.ru##a[href="https://www.ozon.ru/premium-new/"]:upward([data-widget="banner"])
 www.ozon.ru##div:has-text(Реклама):upward([style*="border-radius"])
 www.ozon.ru##a[href*="/special/"]:upward([data-widget="banner"])
+
+! waqi.info
+waqi.info##+js(alert-buster)
+||www.change.org$popup,domain=waqi.info
