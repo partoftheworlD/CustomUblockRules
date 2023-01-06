@@ -118,4 +118,4 @@ www.ozon.ru##a[href*="/special/"]:upward([data-widget="banner"])
 
 ! waqi.info
 waqi.info##+js(alert-buster)
-||www.change.org$popup,domain=waqi.info
+waqi.info##+js(nowoif)
