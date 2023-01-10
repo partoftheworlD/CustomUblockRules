@@ -81,6 +81,7 @@ amedia.online##div[style*="width:970px"]
 /getads.js
 /js/counter.js
 /recurly.js
+/api/tracker/hit*$ping
 
 ! letterboxd.com
 letterboxd.com##[href^="/pro/"]
