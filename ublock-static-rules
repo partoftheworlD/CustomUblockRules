@@ -34,6 +34,9 @@ www.speedrun.com##.flex a[href="/supporter"]
 www.speedrun.com##.promo_banner:remove()
 ! block 3p by using scp
 !||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
+www.speedrun.com##.promo_banner:remove()
+! mobile banner
+www.speedrun.com##div[style="display: block; text-align: center; vertical-align: middle;"]:upward(.hidden-lg-up):remove()
 
 
 ! fox,cc,cn,nf-fan.tv
