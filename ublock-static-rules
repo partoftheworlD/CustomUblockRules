@@ -88,6 +88,11 @@ amedia.online##div[style*="width:970px"]
 /js/counter.js
 /recurly.js
 /api/tracker/hit*$ping
+/engine/data/emoticons/*$image,domain=amedia.online|anidub.me|anidub.com
+/grupa/*$image,domain=amedia.online|anidub.me|anidub.com
+/templates/Animedia/dleimages/*$image,domain=amedia.online|anidub.me|anidub.com
+/templates/rank/*$image,domain=amedia.online|anidub.me|anidub.com
+/uploads/fotos/*$image,domain=amedia.online|anidub.me|anidub.com
 
 ! letterboxd.com
 letterboxd.com##[href^="/pro/"]
