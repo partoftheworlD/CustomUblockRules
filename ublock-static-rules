@@ -79,14 +79,14 @@ amedia.online##div[style*="width:970px"]
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
 
-/adsbygoogle.js
+^adsbygoogle.js^
 /share/share.js$important
 /assets/marketing-all-adv_banner-desktop
 /assets/rtb-all-adv-video-banner
-/ad-injections.json
-/getads.js
-/js/counter.js
-/recurly.js
+^ad-injections.json^
+^getads.js^
+^js/counter.js^
+^recurly.js^
 /api/tracker/hit*$ping
 /engine/data/emoticons/*$image,domain=amedia.online|anidub.me|anidub.com
 /grupa/*$image,domain=amedia.online|anidub.me|anidub.com
