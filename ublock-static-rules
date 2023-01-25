@@ -54,7 +54,7 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="shop.mult.love/tovari/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
-amedia.online##+js(rc, yan5, div)
+amedia.online##div:remove-class(yan5)
 amedia.online##span[class="titlesp"]
 amedia.online##h1:style(text-transform: initial !important;)
 amedia.online##.telegr
