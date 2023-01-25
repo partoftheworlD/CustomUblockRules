@@ -37,6 +37,7 @@ www.speedrun.com##.promo_banner:remove()
 www.speedrun.com##.promo_banner:remove()
 ! mobile banner
 www.speedrun.com##div[style="display: block; text-align: center; vertical-align: middle;"]:upward(.hidden-lg-up):remove()
+||any-pct.speedrun.com^
 
 
 ! fox,cc,cn,nf-fan.tv
