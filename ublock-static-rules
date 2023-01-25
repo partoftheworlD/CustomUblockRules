@@ -7,7 +7,6 @@
 2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
 2gis.ru##header:has-text("Недвижимость поблизости"):upward(3)
 2gis.ru##a[href*="https://link.2gis.com/"]:upward(2)
-
 !
 4anime-tv.com##.stream-item-above-post-content.stream-item > div
 9animetv.su##.entry-content > div
@@ -20,6 +19,7 @@ duolingo.com##button[data-test*="plus"]
 chess.com##a[href*="membership"]
 chess.com##div[class*="trial"]
 
+! speedrun.com
 www.speedrun.com##div:has-text("site update"):upward(.widget-container:has(a[href*="shop"]))
 www.speedrun.com##.widget-image:upward(div[style])
 www.speedrun.com##.hidden-md-down > div
@@ -32,13 +32,13 @@ www.speedrun.com##.nav-link[href="/supporter"]
 www.speedrun.com##.btn-boost
 www.speedrun.com##.flex a[href="/supporter"]
 www.speedrun.com##.promo_banner:remove()
-! block 3p by using scp
+
+! block 3p by using scp (experimental)
 !||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
-www.speedrun.com##.promo_banner:remove()
+
 ! mobile banner
 www.speedrun.com##div[style="display: block; text-align: center; vertical-align: middle;"]:upward(.hidden-lg-up):remove()
 ||any-pct.speedrun.com^
-
 
 ! fox,cc,cn,nf-fan.tv
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###noVip
