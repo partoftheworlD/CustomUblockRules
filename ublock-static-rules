@@ -132,3 +132,6 @@ www.ozon.ru##a[href*="/special/"]:upward([data-widget="banner"])
 ! waqi.info
 waqi.info##+js(alert-buster)
 waqi.info##+js(nowoif)
+
+!yt new 
+www.youtube.com##.ytd-compact-video-renderer.badges:has-text(New):upward(ytd-compact-video-renderer):remove()
