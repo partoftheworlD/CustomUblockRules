@@ -76,6 +76,7 @@ amedia.online##div[style*="width:970px"]
 ||elo.io^
 ||twitter.com^$important,domain=speedrun.com
 ||free-kassa.ru^
+||getsitecontrol.com^
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
@@ -135,3 +136,6 @@ waqi.info##+js(nowoif)
 
 !yt new 
 www.youtube.com##.ytd-compact-video-renderer.badges:has-text(New):upward(ytd-compact-video-renderer):remove()
+
+!deepl
+www.deepl.com##span[id*="recommendation-banner"]:upward(div[class*="stickyBanner"])
