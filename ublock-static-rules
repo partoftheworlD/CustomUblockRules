@@ -64,7 +64,7 @@ amedia.online##div[style*="width:970px"]
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 
 ! isthereanydeal promo
-||*.cloudfront.net^$image,domain=isthereanydeal.com
+||*.cloudfront.net^$image,from=isthereanydeal.com
 
 ||js.stripe.com/*/fingerprinted/*$important
 ||js.stripe.com/v3/m-outer-*
@@ -74,7 +74,7 @@ amedia.online##div[style*="width:970px"]
 ||ruform.trex.media^
 ||id.uma.media^
 ||elo.io^
-||twitter.com^$important,domain=speedrun.com
+||twitter.com^$important,from=speedrun.com
 ||free-kassa.ru^
 ||getsitecontrol.com^
 
@@ -90,11 +90,11 @@ amedia.online##div[style*="width:970px"]
 /js/counter.js
 /recurly.js
 /api/tracker/hit*$ping
-/engine/data/emoticons/*$image,domain=amedia.online|anidub.me|anidub.com|anidub.vip
-/grupa/*$image,domain=amedia.online|anidub.me|anidub.com|anidub.vip
-/templates/Animedia/dleimages/*$image,domain=amedia.online|anidub.me|anidub.com|anidub.vip
-/templates/rank/*$image,domain=amedia.online|anidub.me|anidub.com|anidub.vip
-/uploads/fotos/*$image,domain=amedia.online|anidub.me|anidub.com|anidub.vip
+/engine/data/emoticons/*$image,from=amedia.online|anidub.me|anidub.com|anidub.vip
+/grupa/*$image,from=amedia.online|anidub.me|anidub.com|anidub.vip
+/templates/Animedia/dleimages/*$image,from=amedia.online|anidub.me|anidub.com|anidub.vip
+/templates/rank/*$image,from=amedia.online|anidub.me|anidub.com|anidub.vip
+/uploads/fotos/*$image,from=amedia.online|anidub.me|anidub.com|anidub.vip
 
 ! letterboxd.com
 letterboxd.com##[href^="/pro/"]
