@@ -139,3 +139,5 @@ www.youtube.com##.ytd-compact-video-renderer.badges:has-text(New):upward(ytd-com
 
 !deepl
 www.deepl.com##span[id*="recommendation-banner"]:upward(div[class*="stickyBanner"])
+www.deepl.com##div[id*="headlessui-dialog"]:remove()
+www.deepl.com##div[style="display: contents;"]:remove()
