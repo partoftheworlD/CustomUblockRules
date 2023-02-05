@@ -145,3 +145,6 @@ www.deepl.com##div[style="display: contents;"]:remove()
 
 ! gastronom
 www.gastronom.ru##a[onclick^="ga"]:upward(div):remove()
+www.gastronom.ru##div[class*="poll"]:remove()
+
+
