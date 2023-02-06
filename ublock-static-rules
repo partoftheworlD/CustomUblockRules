@@ -134,10 +134,6 @@ www.ozon.ru##a[href*="/special/"]:upward([data-widget="banner"])
 waqi.info##+js(alert-buster)
 waqi.info##+js(nowoif)
 
-! yt new 
-www.youtube.com##.ytd-compact-video-renderer.badges:has-text(New):upward(ytd-compact-video-renderer):remove()
-www.youtube.com##ytd-compact-video-renderer:nth-of-type(3)
-
 ! deepl
 www.deepl.com##span[id*="recommendation-banner"]:upward(div[class*="stickyBanner"])
 www.deepl.com##div[id*="headlessui-dialog"]:remove()
