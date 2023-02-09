@@ -44,15 +44,15 @@ www.speedrun.com##div[style="display: block; text-align: center; vertical-align:
 ! fox,cc,cn,nf-fan.tv
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###noVip
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###regBlock
-fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[href*="vip.php"]
-fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[href="//freekassa.ru/"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="vip.php"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="//freekassa.ru/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###shopVip
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###content > #comtab
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##div[class="borderRed"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="https://shop.mult.love/"]:upward(1)
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###likeBlock
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="shop.mult.love/tovari/"]
-fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##[src*="/advertisement/"]:upward(1)
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
 amedia.online##div:remove-class(yan5)
