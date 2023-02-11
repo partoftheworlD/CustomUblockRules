@@ -20,7 +20,7 @@ chess.com##a[href*="membership"]
 chess.com##div[class*="trial"]
 
 ! speedrun.com
-www.speedrun.com##div:has-text("site update"):upward(.widget-container:has(a[href*="shop"]))
+www.speedrun.com##.article-tag:has-text(site update):upward(a[href*="shop"])
 www.speedrun.com##.widget-image:upward(div[style])
 www.speedrun.com##.hidden-md-down > div
 www.speedrun.com##.article-tag-wrapper
