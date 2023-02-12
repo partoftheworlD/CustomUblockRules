@@ -20,19 +20,7 @@ chess.com##a[href*="membership"]
 chess.com##div[class*="trial"]
 
 ! speedrun.com
-www.speedrun.com##.article-tag:has-text(site update):upward(a[href*="shop"])
-www.speedrun.com##.widget-image:upward(div[style])
-www.speedrun.com##.hidden-md-down > div
-www.speedrun.com##.article-tag-wrapper
-www.speedrun.com##div.widget-container:has-text(/tweets/i)
-www.speedrun.com##li:has-text(/spotlight/i)
-www.speedrun.com##a.dropdown-item:has-text(/supporter|shop/i)
-www.speedrun.com##div.section a:has-text(/supporter|shop/i)
-www.speedrun.com##.nav-link[href="/supporter"]
-www.speedrun.com##.btn-boost
-www.speedrun.com##.flex a[href="/supporter"]
-www.speedrun.com##.promo_banner:remove()
-www.speedrun.com##.widget-stat-label:has-text(Boosts):upward(div):remove()
+www.speedrun.com##.widget-container:has-text(/tweets/i)
 
 ! block 3p by using scp (experimental)
 !||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
