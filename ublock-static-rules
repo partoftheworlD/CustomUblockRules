@@ -7,6 +7,8 @@
 2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
 2gis.ru##header:has-text("Недвижимость поблизости"):upward(3)
 2gis.ru##a[href*="https://link.2gis.com/"]:upward(2)
+2gis.ru##a[href$="/search/%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D1%8F%202%D0%93%D0%98%D0%A1"]:upward(div)
+2gis.ru##header[style="color:#929292"]:upward(3)
 !
 4anime-tv.com##.stream-item-above-post-content.stream-item > div
 9animetv.su##.entry-content > div
