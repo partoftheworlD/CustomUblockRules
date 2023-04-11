@@ -78,9 +78,11 @@ amedia.online##div[style*="width:970px"]
 ||matchid.adfox.yandex.ru^
 ||tns-counter.ru^
 ||top-fwz1.mail.ru^
-||yandex.ru/ads/*$script
+||yandex.ru/ads/*
 ||counter.yadro.ru^
 ||log.strm.yandex.ru^
+||mc.webvisor.org^
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/*
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
