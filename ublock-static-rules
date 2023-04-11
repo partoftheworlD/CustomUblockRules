@@ -87,6 +87,9 @@ amedia.online##.film-info
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/*
 ||i-trailer.ru^
 ||videoroll.net^
+||gen.jut.su/uploads/achievements/*$image
+||gen.jut.su/templates/school/images/achiv/*
+||an.yandex.ru/system/*
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
