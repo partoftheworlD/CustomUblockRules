@@ -73,6 +73,8 @@ amedia.online##div[style*="width:970px"]
 ||twitter.com^$important,domain=speedrun.com
 ||free-kassa.ru^
 ||getsitecontrol.com^
+||yandex.ru/ads/^$script
+||log.strm.yandex.ru^$important
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
