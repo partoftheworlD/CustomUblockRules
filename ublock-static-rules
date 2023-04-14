@@ -90,6 +90,8 @@ amedia.online##.film-info
 ||gen.jut.su/templates/school/images/achiv/*
 ||an.yandex.ru/system/*
 ||yastatic.net/pcode/adfox/*
+||app.fillplace.ru^
+||counter.rambler.ru^
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
