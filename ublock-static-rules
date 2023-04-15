@@ -47,9 +47,9 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="//freekassa.ru/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###shopVip
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###content > #comtab
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##div[class="borderRed"]
-fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="https://shop.mult.love/"]:upward(1)
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href="https://store.mult.love/"]:upward(1)
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv###likeBlock
-fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="shop.mult.love/tovari/"]
+fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="store.mult.love/tovari/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
@@ -92,6 +92,10 @@ amedia.online##.film-info
 ||yastatic.net/pcode/adfox/*
 ||app.fillplace.ru^
 ||counter.rambler.ru^
+||showjet.ru^
+||moviead55.ru^
+||adriver.ru^
+||vak345.com^
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
