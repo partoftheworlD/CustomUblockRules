@@ -105,7 +105,6 @@ amedia.online##.film-info
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
 
-/adsbygoogle.js
 /share/share.js$important
 /assets/marketing-all-adv_banner-desktop
 /assets/rtb-all-adv-video-banner
