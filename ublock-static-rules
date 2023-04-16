@@ -167,4 +167,7 @@ www.gastronom.ru##a[onclick^="ga"]:upward(div):remove()
 www.gastronom.ru##div[class*="poll"]:remove()
 www.gastronom.ru##+js(set, window.bother.ActiveTimeout, -1)
 
+! guru3d
+guru3d.com##+js(nano-stb, location.href, 5000)
+
 
