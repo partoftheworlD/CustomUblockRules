@@ -100,6 +100,7 @@ amedia.online##.film-info
 ||adfinity.pro^$all
 ||betweendigital.com^$all
 ||sape.ru^$all
+||digitalcaramel.com^$all
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
