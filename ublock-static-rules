@@ -62,6 +62,7 @@ amedia.online##div[style*="width:970px"]
 amedia.online##.multirating-wrapper
 amedia.online##.film-info
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
+||aniqit.com/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js
 
 ! isthereanydeal promo
 ||*.cloudfront.net^$image,domain=isthereanydeal.com
