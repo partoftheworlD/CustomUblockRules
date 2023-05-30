@@ -175,7 +175,6 @@ wiki.gg##div[class*="showcase"]
 
 ! geoguessr
 www.geoguessr.com##div[class^="ad"]
-www.geoguessr.com##div[class^="modal_contentContainer"]:has(div[class^="modal_content__"])
 www.geoguessr.com##div[class^="modal_backlight__"]
 www.geoguessr.com##body:style(overflow: auto !important)
 
