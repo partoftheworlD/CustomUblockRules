@@ -92,6 +92,7 @@ amedia.online##.film-info
 ||gen.jut.su/templates/school/images/achiv/*
 ||an.yandex.ru/system/*
 ||yastatic.net/pcode/adfox/*
+||yastatic.net/video-player/*$script
 ||fillplace.ru^$all
 ||counter.rambler.ru^$all
 ||showjet.ru^$all
@@ -177,5 +178,32 @@ wiki.gg##div[class*="showcase"]
 www.geoguessr.com##div[class^="ad"]
 www.geoguessr.com##div[class^="modal_backlight__"]
 www.geoguessr.com##body:style(overflow: auto !important)
+
+! yandex
+yandex.ru,dzen.ru##.masstransit-layer-panel-view > div :has(a[href="https://direct.yandex.ru/?partner"])
+yandex.ru,dzen.ru###ya-dist
+yandex.ru,dzen.ru##.weather-maps__ad
+yandex.ru,dzen.ru##div[class] > div[class][id] > div:has-text(/Яндекс.Браузере/i)
+yandex.ru,dzen.ru##.content__right:remove()
+yandex.ru,dzen.ru##div[class*="adv"]
+yandex.ru,dzen.ru##div[class$="__ad"]
+yandex.ru,dzen.ru##article:has(div[id][class] > div[style])
+yandex.ru,dzen.ru##div[class$="__container"] > div[class*="content"] > div > div > div[id][class]
+yandex.ru,dzen.ru##.traffic-panel-view + div > div[style]:has-text(/реклама/i)
+yandex.ru,dzen.ru##div[data-chunk="masstransitline"] > div > div[class*="__"] > div[style]:has-text(/реклама/i)
+yandex.ru,dzen.ru##.business-tab-wrapper > div > div > div:has-text(/реклама/i)
+yandex.ru,dzen.ru##.home-panel-content-view__body > div > div:has(a[href="https://direct.yandex.ru/?partner"])
+yandex.ru,dzen.ru##.route-panel-form-view__content > div > div[style]:has-text(/реклама/i)
+yandex.ru,dzen.ru##.route-panel-detailed-view__content > div > div[style]:has-text(/реклама/i)
+yandex.ru,dzen.ru##.card_without-card-decoration.card:nth-of-type(n)
+yandex.ru,dzen.ru##div[id*="column_"]
+yandex.ru,dzen.ru##.content[role="main"] > section > div:nth-of-type(2) > div > div[id][class]
+yandex.ru,dzen.ru##div[class$="__container"] > section:has(div[id][class])
+yandex.ru,dzen.ru##aside > div:has(div[class][id])
+yandex.ru,dzen.ru##div[class$="__container_js_inited"] > section > div  > div[id][class]
+
+! remove params
+$removeparam=curator_clanid
+||speedrun.com/api/v2/GetLatestLeaderboard$removeparam=_r
 
 
