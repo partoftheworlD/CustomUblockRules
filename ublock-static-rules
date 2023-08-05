@@ -31,6 +31,7 @@ www.speedrun.com##.section > a:has-text(/supporter|shop/i)
 www.speedrun.com##.widget-column > .promo_banner:remove()
 www.speedrun.com##.widget-container:has(.article-tag)
 www.speedrun.com##li:has-text(/spotlight|merch|shop/i):not(.dropdown)
+www.speedrun.com##.flex-initial > div > button:has-text("Boost")
 
 ! block 3p by using scp (experimental)
 !||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
