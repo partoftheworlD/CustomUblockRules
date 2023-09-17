@@ -32,6 +32,8 @@ www.speedrun.com##.widget-column > .promo_banner:remove()
 www.speedrun.com##.widget-container:has(.article-tag)
 www.speedrun.com##li:has-text(/spotlight|merch|shop/i):not(.dropdown)
 www.speedrun.com##.flex-initial > div > button:has-text("Boost")
+www.speedrun.com##[href^="https://blue-shell.speedrun.com/"]
+||blue-shell.speedrun.com/cargo.js$script,domain=www.speedrun.com
 
 ! block 3p by using scp (experimental)
 !||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
