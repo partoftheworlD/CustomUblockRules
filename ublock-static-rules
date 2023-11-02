@@ -206,8 +206,15 @@ yandex.ru,dzen.ru##div[class$="__container"] > section:has(div[id][class])
 yandex.ru,dzen.ru##aside > div:has(div[class][id])
 yandex.ru,dzen.ru##div[class$="__container_js_inited"] > section > div  > div[id][class]
 
-! remove params
+! remove params steam
 $removeparam=curator_clanid
+! remove params ozon analytics
+$removeparam=asb
+$removeparam=asb2
+$removeparam=avtc
+$removeparam=avte
+$removeparam=avts
+$removeparam=keywords
 ||speedrun.com/api/v2/GetLatestLeaderboard$removeparam=_r
 
 
