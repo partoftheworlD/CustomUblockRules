@@ -58,7 +58,11 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="store.mult.love/tovari/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
-
+amedia.online##.rating-emoji
+amedia.online##.page__comments
+amedia.online##.sectcomm
+amedia.online##.descr
+amedia.online##.infocomm
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||aniqit.com/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js
 
