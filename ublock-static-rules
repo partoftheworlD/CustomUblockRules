@@ -36,8 +36,6 @@ www.speedrun.com##[href^="https://blue-shell.speedrun.com/"]
 www.speedrun.com##div[data-type][data-space=desktop_sidebar_b]
 ||blue-shell.speedrun.com/cargo.js$script,domain=www.speedrun.com
 www.speedrun.com##+js(trusted-replace-xhr-response, "showAds": true, "showAds": false, GetSession)
-www.speedrun.com##div.overflow-hidden.bg-panel\/panel.rounded-lg
-www.speedrun.com##+js(rc, lg:flex-row, main > div > div)
 
 ! block 3p by using scp (experimental)
 !||speedrun.com^$csp=default-src 'self' 'unsafe-inline'; child-src *.youtube.com; img-src 'self' *.elo.io/blob/
