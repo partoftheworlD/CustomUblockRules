@@ -59,11 +59,11 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[href*="store.mult.love/tovari/"]
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv##a[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
-amedia.online,animedia.online##.rating-emoji
-amedia.online,animedia.online##.page__comments
-amedia.online,animedia.online##.sectcomm
-amedia.online,animedia.online##.descr
-amedia.online,animedia.online##.infocomm
+amedia.site,amedia.online,animedia.online##.rating-emoji
+amedia.site,amedia.online,animedia.online##.page__comments
+amedia.site,amedia.online,animedia.online##.sectcomm
+amedia.site,amedia.online,animedia.online##.descr
+amedia.site,amedia.online,animedia.online##.infocomm
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||aniqit.com/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js
 
