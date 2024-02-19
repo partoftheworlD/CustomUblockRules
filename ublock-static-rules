@@ -69,9 +69,6 @@ amedia.site,amedia.online,animedia.online##.infocomm
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.site/templates/Animedia1/popup/*$script,stylesheet
 
-! isthereanydeal promo
-||*.cloudfront.net^$image,domain=isthereanydeal.com
-
 ||js.stripe.com/*/fingerprinted/*$important
 ||js.stripe.com/v3/m-outer-*
 ||usocial.pro^$all
