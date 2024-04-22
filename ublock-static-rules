@@ -187,7 +187,6 @@ yandex.ru,dzen.ru###ya-dist
 yandex.ru,dzen.ru##.weather-maps__ad
 yandex.ru,dzen.ru##div[class] > div[class][id] > div:has-text(/Яндекс.Браузере/i)
 yandex.ru,dzen.ru##.content__right:remove()
-yandex.ru,dzen.ru##div[class*="adv"]
 yandex.ru,dzen.ru##div[class$="__ad"]
 yandex.ru,dzen.ru##article:has(div[id][class] > div[style])
 yandex.ru,dzen.ru##div[class$="__container"] > div[class*="content"] > div > div > div[id][class]
