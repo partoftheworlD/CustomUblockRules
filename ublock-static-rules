@@ -204,6 +204,7 @@ yandex.ru,dzen.ru##aside > div:has(div[class][id])
 yandex.ru,dzen.ru##div[class$="__container_js_inited"] > section > div  > div[id][class]
 yandex.ru##body > div[class$="__container"] > div[role="main"] > div[id][style]
 yandex.ru##body > div[class$="__container"] > div[role="main"] > div:nth-of-type(3)
+yandex.ru##div:has(main) > div div[id][class]:remove()
 
 ! remove params steam
 $removeparam=curator_clanid
