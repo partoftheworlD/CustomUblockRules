@@ -3,12 +3,6 @@
 ! Homepage: https://github.com/partoftheworlD/CustomUblockRules/blob/master/ublock-static-rules
 
 ! 2gis
-2gis.ru##div[style="padding: 0px; left: 0px; transition: left 200ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;"]:upward(4)
-2gis.ru##span:has-text(Смотреть на YouTube):upward(7)
-2gis.ru##header:has-text("Недвижимость поблизости"):upward(3)
-2gis.ru##a[href*="https://link.2gis.com/"]:upward(2)
-2gis.ru##a[href$="/search/%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D1%8F%202%D0%93%D0%98%D0%A1"]:upward(div)
-2gis.ru##header[style="color:#929292"]:upward(3)
 ||2gis.ru/public/afScript/*$script
 ||d-assets.2gis.ru/gtaAds$script
 !
