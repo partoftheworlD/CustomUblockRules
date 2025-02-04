@@ -55,11 +55,12 @@ fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv,mult-fan.tv##a[href*="store.mult.love/t
 fox-fan.tv,cc-fan.tv,cn-fan.tv,nf-fan.tv,mult-fan.tv##a[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
-amedia.site,amedia.online,animedia.lol##.rating-emoji
-amedia.site,amedia.online,animedia.lol##.page__comments
-amedia.site,amedia.online,animedia.lol##.sectcomm
-amedia.site,amedia.online,animedia.lol##.descr
-amedia.site,amedia.online,animedia.lol##.infocomm
+amedia.site,amedia.online,animedia.online,amedia.lol##.rating-emoji
+amedia.site,amedia.online,animedia.online,amedia.lol##.page__comments
+amedia.site,amedia.online,animedia.online,amedia.lol##.sectcomm
+amedia.site,amedia.online,animedia.online,amedia.lol##.descr
+amedia.site,amedia.online,animedia.online,amedia.lol##.infocomm
+
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.site/templates/Animedia1/popup/*$script,stylesheet
 
