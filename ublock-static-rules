@@ -214,4 +214,8 @@ $removeparam=avte
 $removeparam=avts
 $removeparam=keywords
 
+! yt
+!www.youtube.com###dismissible:has-text(/Новинка|Дубляж/):upward(1)
+www.youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.style-scope:has-text(/Новинка|Дубляж/)
+
 
