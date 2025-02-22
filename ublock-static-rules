@@ -100,6 +100,8 @@ amedia.site,amedia.online,animedia.online,amedia.lol##.infocomm
 ||betweendigital.com^$all
 ||sape.ru^$all
 ||digitalcaramel.com^$all
+||rutube.ru/pangolin/api/web/yappy/$all
+||speedrun.com/api/v2/GetLatestLeaderboard$removeparam=_r
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
@@ -210,6 +212,5 @@ $removeparam=avtc
 $removeparam=avte
 $removeparam=avts
 $removeparam=keywords
-||speedrun.com/api/v2/GetLatestLeaderboard$removeparam=_r
 
 
