@@ -102,6 +102,7 @@ amedia.site,amedia.online,animedia.online,amedia.lol##.infocomm
 ||digitalcaramel.com^$all
 ||rutube.ru/pangolin/api/web/yappy/$all
 ||speedrun.com/api/v2/GetLatestLeaderboard$removeparam=_r
+||ita-free.www.deepl.com/v1/sessions$websocket,domain=www.deepl.com
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
