@@ -203,6 +203,7 @@ yandex.ru,dzen.ru##div[class$="__container_js_inited"] > section > div  > div[id
 yandex.ru##body > div[class$="__container"] > div[role="main"] > div[id][style]
 yandex.ru##body > div[class$="__container"] > div[role="main"] > div:nth-of-type(3)
 yandex.ru##div:has(main) > div div[id][class]:remove()
+yandex.ru##div[class]:matches-css(text-align: center):matches-css(box-sizing: border-box)
 
 ! remove params steam
 $removeparam=curator_clanid
@@ -213,9 +214,8 @@ $removeparam=avtc
 $removeparam=avte
 $removeparam=avts
 $removeparam=keywords
+$removeparam=ref
+$removeparam=epic_creator_id
 
-! yt
-!www.youtube.com###dismissible:has-text(/Новинка|Дубляж/):upward(1)
-www.youtube.com##ytd-compact-video-renderer.ytd-watch-next-secondary-results-renderer.style-scope:has-text(/Новинка|Дубляж/)
 
 
