@@ -217,5 +217,9 @@ $removeparam=keywords
 $removeparam=ref
 $removeparam=epic_creator_id
 
+!msn weather news feed
+www.msn.com###WeatherRightRail
+www.msn.com##.feedsSection-DS-EntryPoint1-1
+
 
 
