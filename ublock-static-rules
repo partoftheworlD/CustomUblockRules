@@ -62,7 +62,7 @@ amedia.*,animedia.online##.page__comments
 amedia.*,animedia.online##.infocomm
 
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
-||amedia.site/templates/Animedia1/popup/*$script,stylesheet
+||amedia.*/templates/Animedia1/popup/*$script,stylesheet
 
 ||js.stripe.com/*/fingerprinted/*$important
 ||js.stripe.com/v3/m-outer-*
@@ -207,6 +207,7 @@ yandex.ru##div[class]:matches-css(text-align: center):matches-css(box-sizing: bo
 
 ! remove params steam
 $removeparam=curator_clanid
+
 ! remove params ozon analytics
 $removeparam=asb
 $removeparam=asb2
@@ -214,6 +215,8 @@ $removeparam=avtc
 $removeparam=avte
 $removeparam=avts
 $removeparam=keywords
+
+! remove params itad ref
 $removeparam=ref
 $removeparam=epic_creator_id
 
