@@ -143,6 +143,9 @@ myanimelist.net##.announcements.widget
 myanimelist.net##.watched_topics.widget
 myanimelist.net##.clubs.widget
 myanimelist.net##tr > td > div > h2:has-text(MALxJapan)
+myanimelist.net##div.review-element.js-review-element
+myanimelist.net##.anime-info-review__header
+myanimelist.net##h2:has-text("Reviews")
 
 ! reshade.me
 reshade.me###g-navigation:style(background: none !important)
