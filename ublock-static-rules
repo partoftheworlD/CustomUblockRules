@@ -55,11 +55,12 @@ www.speedrun.com##div[style="display: block; text-align: center; vertical-align:
 *-fan.tv##a[src*="/advertisement/"]:upward(1)
 
 ! amedia.online
-amedia.*,animedia.online##.srochno
-amedia.*,animedia.online##.rating-emoji
-amedia.*,animedia.online##.socseti
-amedia.*,animedia.online##.page__comments
-amedia.*,animedia.online##.infocomm
+amd.online,amedia.*,animemedia.info##.srochno
+amd.online,amedia.*,animemedia.info##.rating-emoji
+amd.online,amedia.*,animemedia.info##.socseti
+amd.online,amedia.*,animemedia.info##.page__comments
+amd.online,amedia.*,animemedia.info##.infocomm
+amd.online,amedia.*,animemedia.info##.edit
 
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.*/templates/Animedia1/popup/*$script,stylesheet
@@ -174,6 +175,7 @@ www.gastronom.ru##+js(set, window.bother.ActiveTimeout, -1)
 
 ! guru3d
 guru3d.com##+js(nano-stb, location.href, 5000)
+
 ! noita.wiki.gg
 wiki.gg##div[class*="showcase"]
 
@@ -218,6 +220,10 @@ $removeparam=avtc
 $removeparam=avte
 $removeparam=avts
 $removeparam=keywords
+$removeparam=rcmd_alg
+$removeparam=rcmd_id
+$removeparam=ref
+$removeparam=epic_creator_id
 
 ! remove params itad ref
 $removeparam=ref
