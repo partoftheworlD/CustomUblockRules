@@ -222,8 +222,6 @@ $removeparam=avts
 $removeparam=keywords
 $removeparam=rcmd_alg
 $removeparam=rcmd_id
-$removeparam=ref
-$removeparam=epic_creator_id
 
 ! remove params itad ref
 $removeparam=ref
