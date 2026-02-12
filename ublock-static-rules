@@ -61,6 +61,9 @@ amd.online,amedia.*,animemedia.info##.socseti
 amd.online,amedia.*,animemedia.info##.page__comments
 amd.online,amedia.*,animemedia.info##.infocomm
 amd.online,amedia.*,animemedia.info##.edit
+amd.online,amedia.*,animemedia.info##.obv
+amd.online,amedia.*,animemedia.info##.tg-sub-link
+amd.online,amedia.*,animemedia.info##.ya-rtb-block
 
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.*/templates/Animedia1/popup/*$script,stylesheet
