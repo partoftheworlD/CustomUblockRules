@@ -212,6 +212,8 @@ yandex.ru##body > div[class$="__container"] > div[role="main"] > div[id][style]
 yandex.ru##body > div[class$="__container"] > div[role="main"] > div:nth-of-type(3)
 yandex.ru##div:has(main) > div div[id][class]:remove()
 yandex.ru##div[class]:matches-css(text-align: center):matches-css(box-sizing: border-box)
+yandex.ru##li[class^=AppForecastMoney]
+yandex.ru##div[class^=MainPage_topBlockWithMoney]
 
 ! remove params steam
 $removeparam=curator_clanid
