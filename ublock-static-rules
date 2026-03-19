@@ -64,6 +64,11 @@ amd.online,amedia.*,animemedia.info##.edit
 amd.online,amedia.*,animemedia.info##.obv
 amd.online,amedia.*,animemedia.info##.tg-sub-link
 amd.online,amedia.*,animemedia.info##.ya-rtb-block
+amd.online##.obv
+amd.online##.amd-adfree-banner
+amd.online##.amd-mylists-bar
+amd.online##.page__reviews-block
+amd.online##.adblock-offer
 
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.*/templates/Animedia1/popup/*$script,stylesheet
@@ -107,6 +112,8 @@ amd.online,amedia.*,animemedia.info##.ya-rtb-block
 ||rutube.ru/pangolin/api/web/yappy/$all
 ||speedrun.com/api/v2/GetLatestLeaderboard$removeparam=_r
 ||ita-free.www.deepl.com/v1/sessions$websocket,domain=www.deepl.com
+||amd.online/templates/Animedia1/js/notice-daily-modal.js$script,1p
+||amd.online/templates/Animedia1/css/notice-daily-modal.css$stylesheet,1p
 
 ! ip leak
 ! ||streamalloha.live/*.txt$xhr,redirect=noop.txt
@@ -214,6 +221,8 @@ yandex.ru##div:has(main) > div div[id][class]:remove()
 yandex.ru##div[class]:matches-css(text-align: center):matches-css(box-sizing: border-box)
 yandex.ru##li[class^=AppForecastMoney]
 yandex.ru##div[class^=MainPage_topBlockWithMoney]
+yandex.ru##li[class^=AppForecastMoney]
+yandex.ru##div[class^=MainPage_topBlockWithMoney]
 
 ! remove params steam
 $removeparam=curator_clanid
@@ -238,6 +247,9 @@ www.msn.com##.feedsSection-DS-EntryPoint1-1
 
 ! ventusky
 www.ventusky.com##.ew.premium
+
+! vk
+vk.com##.apps_feedRightAppsBlock
 
 
 
