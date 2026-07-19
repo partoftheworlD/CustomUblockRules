@@ -64,11 +64,19 @@ amd.online,amedia.*,animemedia.info##.edit
 amd.online,amedia.*,animemedia.info##.obv
 amd.online,amedia.*,animemedia.info##.tg-sub-link
 amd.online,amedia.*,animemedia.info##.ya-rtb-block
-amd.online##.obv
-amd.online##.amd-adfree-banner
-amd.online##.amd-mylists-bar
-amd.online##.page__reviews-block
-amd.online##.adblock-offer
+amd.online,amedia.*,animemedia.info##.obv
+amd.online,amedia.*,animemedia.info##.amd-adfree-banner
+amd.online,amedia.*,animemedia.info##.amd-mylists-bar
+amd.online,amedia.*,animemedia.info##.page__reviews-block
+amd.online,amedia.*,animemedia.info##.adblock-offer
+amd.online,amedia.*,animemedia.info##.header.d-flex.ai-center > .header__menu.d-flex.flex-grow-1.js-this-in-mobile-menu > .header__menu-item--desktop-only.header__menu-premium > [href*="\/premium\.html"]
+amd.online,amedia.*,animemedia.info##.carou
+amd.online,amedia.*,animemedia.info##.sectcomm.home-diary-widget
+amd.online,amedia.*,animemedia.info##div.sectcomm.last-reviews-sect:nth-of-type(4)
+amd.online,amedia.*,animemedia.info##.ac-home-coll.sectcomm
+amd.online,amedia.*,animemedia.info##div.sectcomm.last-reviews-sect:nth-of-type(5)
+amd.online,amedia.*,animemedia.info##div.sectcomm:nth-of-type(6)
+amd.online,amedia.*,animemedia.info##.descr
 
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.*/templates/Animedia1/popup/*$script,stylesheet
