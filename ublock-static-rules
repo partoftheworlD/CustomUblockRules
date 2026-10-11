@@ -77,6 +77,7 @@ amd.online,amedia.*,animemedia.info##.ac-home-coll.sectcomm
 amd.online,amedia.*,animemedia.info##div.sectcomm.last-reviews-sect:nth-of-type(5)
 amd.online,amedia.*,animemedia.info##div.sectcomm:nth-of-type(6)
 amd.online,amedia.*,animemedia.info##.descr
+amd.online##section.amd-discuss-box
 
 ||kodikapi.com/get-player$removeparam=/(title|hasplayer|url)/i
 ||amedia.*/templates/Animedia1/popup/*$script,stylesheet
