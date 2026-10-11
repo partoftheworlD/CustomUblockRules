@@ -232,6 +232,8 @@ yandex.ru##li[class^=AppForecastMoney]
 yandex.ru##div[class^=MainPage_topBlockWithMoney]
 yandex.ru##li[class^=AppForecastMoney]
 yandex.ru##div[class^=MainPage_topBlockWithMoney]
+yandex.ru##aside > div
+yandex.ru##div#smartBanner
 
 ! remove params steam
 $removeparam=curator_clanid
